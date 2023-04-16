@@ -161,3 +161,12 @@ footer {
 .footerText {
     text-align: center;
 }
+
+.products {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-width: 1050px;
+    margin:auto
+}

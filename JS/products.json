@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "image": "Jacket1.jpeg",
+        "name": "Waterproof Raincoat",
+        "price:": "1.299,- NOK",
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "image": "Jacket2.jpeg",
+        "name": "Skijacket",
+        "price:": "1.299,- NOK",
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "image": "Jacket3.jpeg",
+        "name": "Windjacket",
+        "price:": "1.299,- NOK",
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "image": "Jacket4.jpeg",
+        "name": "Waterresistent jacket",
+        "price:": "1.299,- NOK",
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "image": "Jacket5.jpeg",
+        "name": "Downjacket",
+        "price:": "1.299,- NOK",
+        "quantity": 1
+    },
+    {
+        "id": 6,
+        "image": "Jacket6.jpeg",
+        "name": "Downjacket",
+        "price:": "1.299,- NOK",
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "image": "Jacket7.jpeg",
+        "name": "Skijacket",
+        "price:": "1.299,- NOK",
+        "quantity": 1
+    },{
+        "id": 8,
+        "image": "Jacket8.jpeg",
+        "name": "Light downjacket",
+        "price:": "1.299,- NOK",
+        "quantity": 1
+    },
+    {
+        "id": 9,
+        "image": "Jacket9.jpeg",
+        "name": "Long parkas",
+        "price:": "1.299,- NOK",
+        "quantity": 1
+    }
+]
+
+

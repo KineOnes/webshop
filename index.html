@@ -1,45 +1,101 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webshop/HOME</title>
+    <title>RainyDays/HOME</title>
     <link rel="icon" href="data:;base64,=">
-    <link href="style.css" defer rel="stylesheet">
+
+    <link href="styles.css/common.css" rel="stylesheet">
+
+    <!--Hotjar Tracking Code for RainyDaysFinal-->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3413953,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
 </head>
-
-
-<body> 
+<body>
 
     <header>
-        <a href="index.html">
-            <h1>MY WEBSHOP</h1>
-        </a>
-
-    <nav class="nav">
-        <a class="navPage" href="shop.html">SHOP</a>
-        <a class="navPage" href="item.html">PRODUCT</a>
-        <a class="navPage" href="cart.html">CART</a>
-    </nav>
+        <div class="header_top">
+            <a href="index.html">
+            <img class="logo" src="image_elements/RainyDays_Logo.png" alt="Mouintains logo">
+            </a>
+        </div>
+    
+        </div>
+        <nav class="nav">
+            <a class="cta-button" href="products.html">SHOP</a>
+            <a class="cta-button" href="cart.html">CART</a>
+        </nav>
     </header>
 
     <main>
-        <div class="containerIndex">
-            <a href="shop.html">
-                <img src="images/news.png"></img>
-            <div class="centeredText">NEWS</div>
-            </a>
+        <h1>EXPLORE OUR COLLECTIONS</h1>
+
+        <div class="container">
+
+                <div class="category-item">
+                    <a href="products.html">
+                        <img class="item" src="image_elements/SKIING.png" alt="person skiing">
+                        <div class="activity">SKIING</div>
+                    </a>
+                </div>
+
+                <div class="category-item">
+                    <a href="products.html">
+                        <img class="item" src="image_elements/RAINWEAR.png" alt="person standing in front of waterfall with yellow raincoat">
+                        <div class="activity">RAINWEAR</div>
+                    </a>
+                </div>
+
+                <div class="category-item">
+                    <a href="products.html">
+                        <img class="item" src="image_elements/HIKING.png" alt="person hiking on top of a mountain">
+                        <div class="activity">HIKING</div>
+                    </a>
+                </div>
+
+                <div class="category-item">
+                    <a href="products.html">
+                        <img class="item" src="image_elements/news_men.png" alt="man in black coat">
+                        <div class="activity">NEWS MEN</div>
+                    </a>
+                </div>
+
+                <div class="category-item">
+                    <a href="products.html">
+                        <img class="item" src="image_elements/news_women.png" alt="woman in black coat">
+                        <div class="activity">NEWS WOMEN</div>
+                    </a>
+                </div>
+
+                <div class="category-item">
+                    <a href="products.html">
+                        <img class="item" src="image_elements/coming_soon.png" alt="woman laying down with long blond hair, in jacket">
+                        <div class="activity">COMING SOON!</div>
+                    </a>
+                </div>
         </div>
-    </main>
-    
-    <footer>
-        <div class="footer">
-            <h1 class="footerText">MY WEBSHOP</h1>
+
+      <footer>
+        <div class="footerNav">
+            <a class="footerText" href="about.html">ABOUT</a>
+            <a class="footerText" href="contact.html">CONTACT</a>
+            <a class="footerText" href="index.html">HOME</a>
         </div>
     </footer>
 
-    <!--<script src="script.js"></script>-->
+    <script src="script.js"></script>
 
 </body>
 </html>

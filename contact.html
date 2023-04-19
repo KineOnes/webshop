@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RainyDays/CONTACT</title>
+    <link rel="icon" href="data:;base64,=">
+
+    <link href="styles.css/common.css" rel="stylesheet">
+    <link href="styles.css/form.css" rel="stylesheet">
+
+<!-- Hotjar Tracking Code for RainyDaysFinal -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3413953,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+</head>
+<body>
+
+    <header>
+        <div class="header_top">
+          <a href="index.html">
+          <img class="logo" src="image_elements/RainyDays_Logo.png" alt="Mouintains logo">
+          </a>
+      </div>
+  
+      </div>
+      <nav class="nav">
+          <a class="cta-button" href="products.html">SHOP</a>
+          <a class="cta-button" href="cart.html">CART</a>
+      </nav>
+      </header>
+
+<main>
+    <h1>CONTACT US</h1>
+    <div class="container">
+        
+        <form id="form">
+            <h1 class= success id="success">Thank you for contacting us!</h1>
+
+            <label class="item">Your name:
+                <input name="firstname" id= firstName placeholder="*Required" type="text"></label>
+                <div class="error-input" id="firstNameError">*Insert your name</div>
+
+            <label class="item">Subject:
+                <input name="subject" id= subject placeholder="*Minimum 10 characters" type="text"></label>
+                <div class="error-input" id="subjectError">*Insert subject (minimum 10 characters)</div>
+
+            <label class="item">Email:
+                <input name="email" id= email placeholder="*Required" type="text"></label>
+                <div class="error-input" id="emailError">*Insert your email</div>
+                
+            <label class="item">Address:
+                <input name="address" id= address placeholder="*Minimum 25 characters" type="text"></label>
+                <div class="error-input" id="addressError">*Insert your address (minimum 25 characters)</div>    
+            
+            <div>
+                <button type="submit" class="submitButton">Send</button>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <div class="footerNav">
+        <a class="footerText" href="about.html">ABOUT</a>
+        <a class="footerText" href="contact.html">CONTACT</a>
+        <a class="footerText" href="index.html">HOME</a>
+    </div>
+</footer>
+
+<script src="JS/contact.js"></script>
+
+</body>
+</html>

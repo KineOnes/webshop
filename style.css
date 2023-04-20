@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    font-family: Arial, Verdana, sans-serif;
 }
 
 h1 {
@@ -33,10 +34,6 @@ main {
     color: white;
     font-size: 90px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-body {
-    font-family: Arial, Verdana, sans-serif;
 }
 
 header {
@@ -167,6 +164,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    max-width: 1050px;
+    max-width: 840px;
     margin:auto
 }

@@ -8,7 +8,9 @@ async function getProduct(id) {
     productContainer.innerHTML += `
         <a class="category-item">
         <h2>${product.name}</h2>
-        <h2>${product.description}</h2></a>`;
+        <h2>${product.description}</h2>
+        <p>${product.short_description}</p>
+        <h2>${product.prices.price}</h2></a>`;
 }
 
 function getId() {

@@ -20,6 +20,10 @@ h2 {
     margin-bottom: 15px;
 }
 
+p {
+    color: black;
+}
+
 .text {
     padding-bottom: 20px;
     max-width: 280px;

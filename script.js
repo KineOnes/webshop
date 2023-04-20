@@ -7,8 +7,7 @@ async function getProducts(url){
     products.forEach(function(product){
         productContainer.innerHTML += `
             <div class="category-item"><h2>${product.name}</h2>
-            <h2>${product.description}</h2>
-            <h2>${product.add_to_cart}</h2></div>`;
+            <h2>${product.description}</h2></div>`;
     })
     
 }

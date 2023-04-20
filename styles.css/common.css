@@ -56,9 +56,15 @@ h1 {
     text-align: center;
 }
 
+.featured_title {
+    color: hsl(0, 0%, 100%);
+    background-color: #71b8d8;
+    border-radius: 20px;
+}
+
 h2 {
-    color: black;
-    padding-bottom:8px;
+    color: #0e374a;
+    /*padding-bottom:8px;*/
 }
 
 p {
@@ -105,6 +111,7 @@ p {
     padding: 3px;
     margin-bottom: 15px;
     display: inline-block;
+    border-radius: 20px;
 }
 
 .category-item:hover {

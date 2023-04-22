@@ -14,11 +14,13 @@ h2 {
     max-width: 640px;
   }
 
-/*.category-item {
-    position: relative;
-    padding: 3px;
-    background-color: #71b8d8;
-} */
+.sizes {
+    margin-left: 40px;
+}
+
+.cta-button {
+    margin-left: 30px;
+}
 
 .item {
     position: relative;

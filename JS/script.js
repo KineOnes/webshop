@@ -1,37 +1,17 @@
-/* This code is work in progress. Fetchin from localstorage.*/ 
+const baseUrl = "http://hello-world.local/wp-json/wc/store/products";
+const productContainer = document.querySelector(".products");
 
-fetch("products.json")
-.then(function(response){
-    return response.json();
-
-})
-.then(function(data){
-    localStorage.setItem("products", JSON.stringify(data));
-    if(!localStorage.getItem("cart")){
-        localStorage.setItem("cart", "[]");
-    }
-});
-
-let products = JSON.parse(localStorage.getItem("products"));
-let cart = JSON.parse(localStorage.getItem("cart"));
-
-function addItemToCart(productId){
-    let product = products.find(function(product){
-        return product.id == productId;   
-    });
-    
-    if(cart.length == 0){
-        cart.push(product);
-    }else{
-        let res =cart.find(element => element.id == productId);
-        if(res === undefined){
-            cart.push(product);
-        }
-    }
-
-    localStorage.setItem("cart", JSON.stringify(cart));
-
+async function getProducts(url){
+    const response = await fetch(url);
+    const products = await response.json();
+    console.log(products)
+    products.forEach(function(product){
+        productContainer.innerHTML += `
+            <a href="/item.html?id=${product.id}" class="category-item">
+            <h2>${product.name}</h2>
+            <h2>${product.description}</h2></a>`;
+    })
 }
-addItemToCart(1);
-addItemToCart(2);
-addItemToCart(3);
+
+getProducts(baseUrl);
+

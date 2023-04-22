@@ -64,7 +64,6 @@ h1 {
 
 h2 {
     color: #0e374a;
-    /*padding-bottom:8px;*/
 }
 
 p {
@@ -150,10 +149,6 @@ footer {
 }
 
 .info_background {
-    /*background: url(../Images/background_about.png) no-repeat center center fixed; 
-    background-size: cover;
-    min-height: 100vh; display: flex; flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;*/
     max-width: 750px;
     min-height: 370px;
     margin: auto;

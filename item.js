@@ -1,16 +1,17 @@
 const baseUrl = "http://hello-world.local/wp-json/wc/store/products";
 const productContainer = document.querySelector(".product");
+const textContainer = document.querySelector(".text")
 
 async function getProduct(id) {
     const response = await fetch(baseUrl + "/" + id);
     const product = await response.json();
     console.log(product)
-    productContainer.innerHTML += `
-        <a class="category-item">
-        <h2>${product.name}</h2>
-        <h2>${product.description}</h2>
-        <p>${product.short_description}</p>
-        <h2>${product.prices.price}</h2></a>`;
+    productContainer.innerHTML += `${product.description}`;
+    textContainer.innerHTML += `
+    <h2>${product.name}</h2>
+    <p>${product.short_description}</p>
+    <h2>${product.prices.price / 100} NOK</h2>
+    `;
 }
 
 function getId() {
